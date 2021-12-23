@@ -3,6 +3,9 @@ import axios from 'axios';
 import React, { useState, useEffect } from 'react';
 import Coin from './Coin';
 
+//documentation about coingecko
+// https://www.coingecko.com/en/api/documentation?
+
 function App() {
   const [coins, setCoins] = useState([]);
   const [search, setSearch] = useState('');
