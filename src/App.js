@@ -7,6 +7,8 @@ function App() {
   const [coins, setCoins] = useState([]);
   const [search, setSearch] = useState('');
   const [currency, setCurrency] = useState('cad');
+  const [currentCurrency, setCurrentCurrency] = useState('CAD');
+
   useEffect(() => {
     axios
       .get(
@@ -44,6 +46,7 @@ function App() {
           <button
             onClick={(e) => {
               e.preventDefault();
+              setCurrentCurrency('CAD');
               setCurrency('cad');
             }}
           >
@@ -52,13 +55,16 @@ function App() {
           <button
             onClick={(e) => {
               e.preventDefault();
+              setCurrentCurrency('USD');
               setCurrency('usd');
             }}
           >
             USD
           </button>
         </div>
+        <h2>{currentCurrency}</h2>
       </div>
+
       {filteredCoins.map((coin) => {
         return (
           <Coin

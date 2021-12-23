@@ -40,3 +40,13 @@ color:rgb(199, 202, 198)
 .coin-currency{
   margin-top: 1rem;
 }
+h1{
+  font-size: 3rem;
+}
+h2{
+  margin: 1rem;
+  font-size: 2rem;
+}
+button{
+  margin: .25rem;
+}
