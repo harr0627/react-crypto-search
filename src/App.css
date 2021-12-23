@@ -37,3 +37,6 @@
 .coin-input::placeholder{
 color:rgb(199, 202, 198)
 }
+.coin-currency{
+  margin-top: 1rem;
+}

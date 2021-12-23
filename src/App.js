@@ -19,7 +19,7 @@ function App() {
       .catch((err) => {
         console.log(err);
       });
-  }, []);
+  }, [currency]);
 
   const handleChange = (e) => {
     setSearch(e.target.value);
@@ -40,6 +40,24 @@ function App() {
             onChange={handleChange}
           />
         </form>
+        <div className="coin-currency">
+          <button
+            onClick={(e) => {
+              e.preventDefault();
+              setCurrency('cad');
+            }}
+          >
+            CAD
+          </button>
+          <button
+            onClick={(e) => {
+              e.preventDefault();
+              setCurrency('usd');
+            }}
+          >
+            USD
+          </button>
+        </div>
       </div>
       {filteredCoins.map((coin) => {
         return (
