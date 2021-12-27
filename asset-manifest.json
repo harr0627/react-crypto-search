@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-crypto-search/static/css/main.96693d6d.css",
-    "main.js": "/react-crypto-search/static/js/main.e7aff43e.js",
+    "main.css": "/react-crypto-search/static/css/main.925dfd9e.css",
+    "main.js": "/react-crypto-search/static/js/main.900b37a0.js",
     "index.html": "/react-crypto-search/index.html",
-    "main.96693d6d.css.map": "/react-crypto-search/static/css/main.96693d6d.css.map",
-    "main.e7aff43e.js.map": "/react-crypto-search/static/js/main.e7aff43e.js.map"
+    "main.925dfd9e.css.map": "/react-crypto-search/static/css/main.925dfd9e.css.map",
+    "main.900b37a0.js.map": "/react-crypto-search/static/js/main.900b37a0.js.map"
   },
   "entrypoints": [
-    "static/css/main.96693d6d.css",
-    "static/js/main.e7aff43e.js"
+    "static/css/main.925dfd9e.css",
+    "static/js/main.900b37a0.js"
   ]
 }
