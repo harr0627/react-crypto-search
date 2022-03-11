@@ -2,6 +2,8 @@
 
 This project utilizes the Coingeko API to provide updated information about different cryptocurrencies. This responsive application was built using React
 
+<img src="https://github.com/harr0627/react-crypto-search/blob/main/src/assets/crypto.png" width="500">
+
 ### Link to the live site
 [Live Project]("https://harr0627.github.io/react-crypto-search/")
 
