@@ -5,7 +5,7 @@ This project utilizes the Coingeko API to provide updated information about diff
 <img src="https://github.com/harr0627/react-crypto-search/blob/main/src/assets/crypto.png" width="500">
 
 ### Link to the live site
-[Live Project]("https://harr0627.github.io/react-crypto-search/")
+<a href="https://harr0627.github.io/react-crypto-search/" target="_blank">Live site</a>
 
 ### `yarn start`
 
